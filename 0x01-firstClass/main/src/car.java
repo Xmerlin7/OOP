@@ -19,6 +19,9 @@ public class car {
             model = m;
         else
             System.out.println("sory, we don't accept that model");
-            
+
+    }
+    public int getCarModel() {
+        return model;
     }
 }
