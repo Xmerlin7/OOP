@@ -1,8 +1,8 @@
 public class car {
-    String carName;
-    int maxSpeed;
-    float price;
-    int model;
+    private String carName;
+    private int maxSpeed;
+    private float price;
+    private int model;
 
     /* setter function */
     public void setCarName(String carName) {
