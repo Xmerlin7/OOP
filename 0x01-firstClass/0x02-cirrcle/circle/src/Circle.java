@@ -2,12 +2,12 @@ public class Circle {
     private double radius;
     private String color;
 
-    public void setRadius(double r){
-        radius = r;
+    public void setRadius(double radius){
+        this.radius = radius;
     }
 
-    public void setColor(String cl){
-        color = cl;
+    public void setColor(String color){
+        this.color = color;
     }
     public double getRadius(){
         return radius;
@@ -15,5 +15,8 @@ public class Circle {
 
     public String getColor(){
         return color;
+    }
+    public double getArea(){
+        return (PI )
     }
 }
