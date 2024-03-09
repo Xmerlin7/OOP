@@ -17,6 +17,15 @@ public class Circle {
         return color;
     }
     public double getArea(){
-        return (PI )
+        return ( Math.PI * radius * radius);
+    }
+
+    public double getCircumuference(){
+        return ( Math.PI * 2 * radius);
+    }
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return ("Circle{" + "radius =" + radius + ", clolor = " + color + '}');
     }
 }
