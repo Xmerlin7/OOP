@@ -9,7 +9,6 @@ public class App {
         car carObj2 = new car();
         carObj2.carName = "Ford";
         System.out.println(carObj.getCarName());
-        System.out.println(carObj2.carName);
         System.out.println(carObj.carName);
         carObj.setCarName("Kia");
         System.out.println(carObj.carName);
