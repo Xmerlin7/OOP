@@ -33,5 +33,4 @@ public class Acc {
     public String toString() {
         return ("AccNo is " + this.accountNo + ", AccName is " + this.name + ", AccAmount is " + this.amount);
     }
-
 }
