@@ -15,9 +15,14 @@ public class Acc {
         System.out.println(amount + " deposited");
         System.out.println("Your Balance now is " + this.amount);
     }
+
     public void withdraw(float amount) {
-        this.amount -= amount;
-        System.out.println(amount + " deposited");
-        System.out.println("Your Balance now is " + this.amount);
+        if (this.amount < amount) {
+            System.out.println("This operattion can not br done you only have " + this.amount);
+        } else {
+            this.amount -= amount;
+            System.out.println(amount + " deposited");
+            System.out.println("Your Balance now is " + this.amount);
+        }
     }
 }
