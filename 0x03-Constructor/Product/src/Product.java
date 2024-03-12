@@ -16,12 +16,12 @@ public class Product {
     //! build a Parameterized constructor */
     //? Note: In java u can use same methods different signature
     //* this called overloading */
-    public Product(String name, String description) {
-        this.name = "no name";
-        this.description = " No description";
-        this.price = 0.0f;
-        this.quantity = 0;
-        this.discount = 0;
+    public Product(String name, String description, float price, int quantity, float discount) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.quantity = quantity;
+        this.discount = discount;
     }
     public void dispalyProduct() {
         System.out.println("name "+ this.name);
