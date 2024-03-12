@@ -15,7 +15,7 @@ public class Acc {
         System.out.println(amount + " deposited");
         System.out.println("Your Balance now is " + this.amount);
     }
-    
+
     public void withdraw(float amount) {
         if (this.amount < amount) {
             System.out.println("This operattion can not be done you only have " + this.amount);
@@ -33,5 +33,5 @@ public class Acc {
     public String toString() {
         return ("AccNo is " + this.accountNo + ", AccName is " + this.name + ", AccAmount is " + this.amount);
     }
-    
+
 }
