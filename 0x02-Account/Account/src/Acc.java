@@ -29,9 +29,8 @@ public class Acc {
     public void checkBalance() {
         System.out.println("Your Balance now is " + this.amount);
     }
-    @Override
+
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        return("AccNo is " + this.accountNo + " AccName is " + this.name + " AccAmount is " + this.amount);
     }
 }
