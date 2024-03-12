@@ -25,4 +25,9 @@ public class Acc {
             System.out.println("Your Balance now is " + this.amount);
         }
     }
+
+    public void checkBalance() {
+        System.out.println("Your Balance now is " + this.amount);
+    }
+    
 }
