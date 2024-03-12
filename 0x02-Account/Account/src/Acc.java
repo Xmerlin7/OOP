@@ -18,7 +18,7 @@ public class Acc {
 
     public void withdraw(float amount) {
         if (this.amount < amount) {
-            System.out.println("This operattion can not br done you only have " + this.amount);
+            System.out.println("This operattion can not be done you only have " + this.amount);
         } else {
             this.amount -= amount;
             System.out.println(amount + " deposited");
