@@ -3,5 +3,6 @@ public class App {
        Acc acount1 = new Acc();
        acount1.insert(0, "Seif", 100); 
        acount1.deposit(50);
+       acount1.withdraw(200);
     }
 }
