@@ -25,7 +25,7 @@ public class Circle {
     }
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
+        
         return ("Circle{" + "radius =" + radius + ", clolor = " + color + '}');
     }
 }
