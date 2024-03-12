@@ -5,12 +5,30 @@ public class Product {
     private int quantity;
     private float discount;
 
-    //! build a non-Argument constructor, its name same as the class */
+    //! build a no-Argument constructor, its name same as the class */
     public Product() {
         this.name = "no name";
         this.description = " No description";
         this.price = 0.0f;
         this.quantity = 0;
         this.discount = 0;
+    }
+    //! build a Parameterized constructor */
+    //? Note: In java u can use same methods different signature
+    //* this called overloading */
+    public Product(String name, String description) {
+        this.name = "no name";
+        this.description = " No description";
+        this.price = 0.0f;
+        this.quantity = 0;
+        this.discount = 0;
+    }
+    public void dispalyProduct() {
+        System.out.println("name "+ this.name);
+        System.out.println("description "+ this.description);
+        System.out.println("price "+ this.price);
+        System.out.println("quantity "+ this.quantity);
+        System.out.println("discount "+ this.discount);
+
     }
 }
