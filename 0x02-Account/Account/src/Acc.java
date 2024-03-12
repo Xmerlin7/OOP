@@ -8,5 +8,9 @@ public class Acc {
         this.name = name;
         this.amount = amount;
     }
-    public void deposit ()
+
+    public void deposit(float amount) {
+        this.amount += amount;
+        System.out.println(amount + "deposited");
+    }
 }
