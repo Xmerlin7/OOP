@@ -7,6 +7,7 @@ public class Acc {
         this.accountNo = accountNo;
         this.name = name;
         this.amount = amount;
+        System.out.println("Thank you for using our Bank!");
     }
 
     public void deposit(float amount) {
