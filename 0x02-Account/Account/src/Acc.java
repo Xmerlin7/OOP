@@ -12,6 +12,7 @@ public class Acc {
 
     public void deposit(float amount) {
         this.amount += amount;
-        System.out.println(amount + "deposited");
+        System.out.println(amount + " deposited");
+        System.out.println("Your Balance now is " + this.amount);
     }
 }
