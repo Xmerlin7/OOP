@@ -17,6 +17,15 @@ public class Product {
         serialNumber++;
     }
 
+    public int counter(int x) {
+        return x++;
+    }
+
+    public void print(int x) {
+        System.out.println(counter(x));
+        System.out.println(x);
+    }
+
     // ! build a Parameterized constructor */
     // ? Note: In java u can use same methods different signature
     // * this called overloading */
