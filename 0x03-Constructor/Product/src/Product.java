@@ -5,6 +5,7 @@ public class Product {
     private int quantity;
     private float discount;
     static int serialNumber = 0;
+    private boolean loggedIn = false;
 
     // ! build a no-Argument constructor, its name same as the class */
     public Product() {
@@ -37,9 +38,11 @@ public class Product {
     }
 
     public boolean login(int serialNumberr, String name) {
-    if ((serialNumber == serialNumberr) && this.name.equals(name)){
-        System.out.println("True");
-    }else {
-        System.out.println("false");
+        if ((serialNumber == serialNumberr) && this.name.equals(name)) {
+            loggedIn = true;
+            return (loggedIn);
+        } else {
+            return false;
+        }
     }
 }
