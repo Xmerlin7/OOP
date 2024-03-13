@@ -31,7 +31,7 @@ public class Product {
         System.out.println("price "+ this.price);
         System.out.println("quantity "+ this.quantity);
         System.out.println("discount "+ this.discount);
-
+        System.out.println("SerialNumber is  "+ serialNumber);
     }
 
 }
