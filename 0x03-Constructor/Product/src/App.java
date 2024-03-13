@@ -4,5 +4,7 @@ public class App {
         //? and it will not call the other constructor as it only call one for each object
         Product p1 = new Product();
         p1.dispalyProduct();
+        Product p2 = new Product();
+        p2.dispalyProduct();
     }
 }

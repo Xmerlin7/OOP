@@ -4,7 +4,7 @@ public class Product {
     private float price;
     private int quantity;
     private float discount;
-    static int serialNumber = 1;
+    static int serialNumber = 0;
 
     //! build a no-Argument constructor, its name same as the class */
     public Product() {
