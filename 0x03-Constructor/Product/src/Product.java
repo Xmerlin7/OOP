@@ -13,7 +13,7 @@ public class Product {
         this.price = 0.0f;
         this.quantity = 0;
         this.discount = 0;
-        
+        serialNumber++;
     }
     //! build a Parameterized constructor */
     //? Note: In java u can use same methods different signature
