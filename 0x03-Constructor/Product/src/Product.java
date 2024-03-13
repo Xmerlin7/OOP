@@ -4,6 +4,7 @@ public class Product {
     private float price;
     private int quantity;
     private float discount;
+    static int serialNumber = 1;
 
     //! build a no-Argument constructor, its name same as the class */
     public Product() {
@@ -12,6 +13,7 @@ public class Product {
         this.price = 0.0f;
         this.quantity = 0;
         this.discount = 0;
+        
     }
     //! build a Parameterized constructor */
     //? Note: In java u can use same methods different signature
@@ -31,5 +33,5 @@ public class Product {
         System.out.println("discount "+ this.discount);
 
     }
-    
+
 }
