@@ -1,12 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Test obj = new Test();
-        obj.number = 2;
-        fun(obj);
+        Math objMath1 = new Math();
+        Math objMath2 = new Math();
+        objMath1.val = 5;
+        objMath2.val = 5;
+        System.out.println(Math.add(objMath1, objMath2));
     }
 
-    static void fun(Test x) {
-        x.number++;
-        System.out.println(x.number);
-    }
 }
