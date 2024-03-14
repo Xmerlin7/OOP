@@ -1,7 +1,7 @@
 public class Games {
     protected int gameYearPublish;
     protected int gameTime;
-    protected String gameName; 
+    protected String gameName;
     protected String gameCategory;
     protected boolean GOTY;
 
@@ -17,6 +17,10 @@ public class Games {
         this.gameCategory = gameCategory;
     }
 
+    public void setGameName(String gameName) {
+        this.gameName = gameName;
+    }
+
     public void setGameYearPublish(int gameYearPublish) {
         this.gameYearPublish = gameYearPublish;
     }
@@ -27,6 +31,10 @@ public class Games {
 
     public int getGameTime() {
         return gameTime;
+    }
+
+    public String getGameName() {
+        return gameName;
     }
 
     public int getGameYearPublish() {
