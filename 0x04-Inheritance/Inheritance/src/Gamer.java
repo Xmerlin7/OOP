@@ -1,4 +1,6 @@
 public class Gamer extends Games{
-    String
+    private String player;
+    private String playerType;
+    
     
 }
