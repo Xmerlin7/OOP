@@ -4,6 +4,7 @@ public class Gamer extends Games{
 
     Gamer (){
         System.out.println("child constructor");
+        super.
     }
     
 }

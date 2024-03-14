@@ -1,12 +1,18 @@
 public class Games {
     protected int gameYearPublish;
-    protected int gameTime;
+    protected int gamePlayTime;
     protected String gameName;
     protected String gameCategory;
     protected boolean GOTY;
 
-    public void setGameTime(int gameTime) {
-        this.gameTime = gameTime;
+    public Games() {
+        System.out.println("Super constructor");
+
+    }
+    public Games(String gameName, int gameYearPublish, int gamePlayTime, String gameCategory, boolean GOTY)
+
+    public void setGameTime(int gamePlayTime) {
+        this.gamePlayTime = gamePlayTime;
     }
 
     public void setGOTY(boolean gOTY) {
@@ -41,8 +47,5 @@ public class Games {
         return gameYearPublish;
     }
 
-    Games() {
-        System.out.println("Super constructor");
 
-    }
 }
