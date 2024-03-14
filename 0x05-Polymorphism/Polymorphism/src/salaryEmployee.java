@@ -1,6 +1,6 @@
 
 public class salaryEmployee extends Employee{
-    float bonous;
+    protected float bonous;
     public salaryEmployee(float bonous,String Name, String address, int salary) {
         super(Name, address, salary);
         this.bonous = bonous;

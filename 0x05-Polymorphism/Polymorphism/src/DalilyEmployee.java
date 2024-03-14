@@ -1,15 +1,15 @@
 public class DalilyEmployee extends Employee {
-    private float workDailyPrice;
+    private float workDailyPriced;
     private int workDailyRate;
-
-    public DalilyEmployee(float bonous, String Name, String address, int salary, float workDailyPrice, int workDailyRate) {
+    protected float bonous;
+    public DalilyEmployee(float bonous, String Name, String address, int salary, float workDailyPriced, int workDailyRate) {
         super(Name, address, salary);
-        this.workDailyPrice = workDailyPrice;
+        this.workDailyPriced = workDailyPriced;
         this.workDailyRate = workDailyRate;
     }
 
-    public void setWorkDailyPrice(float workDailyPrice) {
-        this.workDailyPrice = workDailyPrice;
+    public void setWorkDailyPrice(float workDailyPriced) {
+        this.workDailyPriced = workDailyPriced;
     }
 
     public void setWorkDailyRate(int workDailyRate) {
@@ -17,7 +17,7 @@ public class DalilyEmployee extends Employee {
     }
     @Override
     public float getSalary() {
-        return workDailyPrice * workDailyRate;
+        return (workDailyPriced * workDailyRate) + this.bonous;
     }
     
 
