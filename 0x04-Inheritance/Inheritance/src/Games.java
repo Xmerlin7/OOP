@@ -9,6 +9,7 @@ public class Games {
         System.out.println("Super constructor");
 
     }
+
     public Games(String gameName, int gameYearPublish, int gamePlayTime, String gameCategory, boolean GOTY)
 
     public void setGameTime(int gamePlayTime) {
@@ -46,6 +47,5 @@ public class Games {
     public int getGameYearPublish() {
         return gameYearPublish;
     }
-
 
 }
