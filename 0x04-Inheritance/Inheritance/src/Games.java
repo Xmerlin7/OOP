@@ -1,5 +1,5 @@
 public class Games {
-    protected int gameYearPublish;
+    protected int gameYearRelease;
     protected int gamePlayTime;
     protected String gameName;
     protected String gameCategory;
@@ -10,7 +10,14 @@ public class Games {
 
     }
 
-    public Games(String gameName, int gameYearPublish, int gamePlayTime, String gameCategory, boolean GOTY)
+    public Games(String gameName, int gameYearRelease, int gamePlayTime,
+            String gameCategory, boolean GOTY) {
+        this.GOTY = GOTY;
+        this.gameCategory = gameCategory;
+        this.gameName = gameName;
+        this.gamePlayTime = gamePlayTime;
+        this.gameYearRelease = gameYearRelease;
+    }
 
     public void setGameTime(int gamePlayTime) {
         this.gamePlayTime = gamePlayTime;
