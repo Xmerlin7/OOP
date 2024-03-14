@@ -15,9 +15,5 @@ public class DalilyEmployee extends Employee {
     public void setWorkDailyRate(int workDailyRate) {
         this.workDailyRate = workDailyRate;
     }
-    @Override
-    public float getSalary() {
-        return (super.getSalary() + this.bonous);
-    }
 
 }
