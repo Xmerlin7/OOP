@@ -9,7 +9,7 @@ public class Gamer extends Games{
         super(gameName, gameYearRelease, gamePlayTime, gameCategory, GOTY);
         this.player = player;
         this.playerType = playerType;
-        System.out.println("child constructor");
+        System.out.println("child child constructor");
     }
     
 }
