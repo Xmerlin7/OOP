@@ -28,5 +28,8 @@ public class HourlyEmplyee extends Employee {
     public float getWorkDailyPrice() {
         return workDailyPrice;
     }
-
+    @Override
+    public float getSalary() {
+        return workDailyPrice * DailyRate;
+    }
 }
