@@ -2,6 +2,12 @@ public class Employee {
     protected String Name, address;
     protected float salary;
 
+    public Employee(String Name, String address, int salary){
+        this.Name = Name;
+        this.address = address;
+        this.salary = salary;
+    }
+
     public void setAddress(String address) {
         this.address = address;
     }
