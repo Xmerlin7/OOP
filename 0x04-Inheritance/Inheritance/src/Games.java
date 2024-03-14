@@ -1,6 +1,6 @@
 public class Games {
     protected int gameYearRelease;
-    protected int gamePlayTime;
+    protected float gamePlayTime;
     protected String gameName;
     protected String gameCategory;
     protected boolean GOTY;
@@ -10,7 +10,7 @@ public class Games {
 
     }
 
-    public Games(String gameName, int gameYearRelease, int gamePlayTime,
+    public Games(String gameName, int gameYearRelease, float gamePlayTime,
             String gameCategory, boolean GOTY) {
         this.GOTY = GOTY;
         this.gameCategory = gameCategory;
@@ -35,24 +35,28 @@ public class Games {
         this.gameName = gameName;
     }
 
-    public void setGameYearPublish(int gameYearPublish) {
-        this.gameYearPublish = gameYearPublish;
+    public void setGamePlayTime(float gamePlayTime) {
+        this.gamePlayTime = gamePlayTime;
+    }
+
+    public void setGameYearRelease(int gameYearRelease) {
+        this.gameYearRelease = gameYearRelease;
     }
 
     public String getGameCategory() {
         return gameCategory;
     }
 
-    public int getGameTime() {
-        return gameTime;
-    }
-
     public String getGameName() {
         return gameName;
     }
 
-    public int getGameYearPublish() {
-        return gameYearPublish;
+    public float getGamePlayTime() {
+        return gamePlayTime;
+    }
+
+    public int getGameYearRelease() {
+        return gameYearRelease;
     }
 
 }
