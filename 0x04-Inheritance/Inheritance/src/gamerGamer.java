@@ -3,7 +3,7 @@ public class gamerGamer extends Gamer {
 
     public gamerGamer() {
         super(); // Call the superclass constructor
-        this.GOTY = true; // Set the GOTY attribute to true
+        setGOTY(false);
     }
 
 }
