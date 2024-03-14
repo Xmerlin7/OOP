@@ -1,6 +1,7 @@
 public class Games {
     protected int gameYearPublish;
     protected int gameTime;
+    protected String gameName; 
     protected String gameCategory;
     protected boolean GOTY;
 
