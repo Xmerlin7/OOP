@@ -1,5 +1,5 @@
 public class DalilyEmployee extends Employee {
-    private float workDailyPrice, bonous;
+    private float workDailyPrice;
     private int workDailyRate;
 
     public DalilyEmployee(float bonous, String Name, String address, int salary, float workDailyPrice, int workDailyRate) {
