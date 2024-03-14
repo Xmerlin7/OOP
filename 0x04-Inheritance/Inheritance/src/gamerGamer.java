@@ -1,10 +1,9 @@
-public class gamerGamer extends Gamer{
+public class gamerGamer extends Gamer {
     protected String name;
-    public gamerGamer(){
-        gamerGamer gameGamerGamer = new gamerGamer();
-        gameGamerGamer.GOTY = true;
+
+    public gamerGamer() {
+        super(); // Call the superclass constructor
+        this.GOTY = true; // Set the GOTY attribute to true
     }
-    public String getName() {
-        return name;
-    }
+
 }

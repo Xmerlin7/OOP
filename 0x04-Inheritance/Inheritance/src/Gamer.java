@@ -2,7 +2,7 @@ public class Gamer extends Games{
     private String player;
     private String playerType;
     Gamer(){
-        
+
     }
     Gamer (String gameName, int gameYearRelease, int gamePlayTime,
     String gameCategory, boolean GOTY, String player, String playerType){

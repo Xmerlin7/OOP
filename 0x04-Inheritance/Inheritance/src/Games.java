@@ -58,5 +58,8 @@ public class Games {
     public int getGameYearRelease() {
         return gameYearRelease;
     }
+    public boolean getGOTY() {
+        return GOTY;
+    }
 
 }
